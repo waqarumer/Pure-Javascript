@@ -6,7 +6,7 @@ tinderUser.id = "123abc"
 tinderUser.name = "sammy"
 tinderUser.isLoggedIn = false
 
-console.log(tinderUser);
+//console.log(tinderUser);
 
 
 // to define object with function or object 
@@ -49,10 +49,27 @@ const obj4 = Object.assign({},obj1,obj2)
 
 const obj5 = {...obj1 , ...obj2}
 
-console.log(obj5);
+// console.log(obj5);
 
-console.log(Object.keys(tinderUser))
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser))
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(Object.hasOwnProperty('isLoggedIn'));
+// console.log(Object.hasOwnProperty('isLoggedIn'));
+
+
+
+
+// destructuring of objects 
+
+const course = {
+    coursename : "js in urdu",
+    price: "999",
+    courseInstructor: "waqar"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructer} = course
+
+console.log(instructer);
