@@ -18,7 +18,7 @@ const tea = createUser("tea",250)
 chai.printMe()
 
 
-// a new object is created: the new keyword initiates the creation of a new javascript object 
+// a new object is created: the new keyword initiates the creation of a new javascript object  
 
 
 
